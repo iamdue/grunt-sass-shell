@@ -45,6 +45,7 @@ grunt.initConfig({
 This plugin only support the options that sassc binary does. These are the following:
 
 #### outputStyle
+Alias: `style`
 Type: `String`
 Default value: `'nested'`
 
@@ -93,7 +94,7 @@ grunt.initConfig({
   sass_shell: {
     testWithoutMap: {
       options: {
-          outputStyle: 'expanded',
+          style: 'expanded', // or outputStyle
           sourceMap: false
         },
         files: {
