@@ -35,14 +35,18 @@ module.exports = function (grunt) {
 
 		var opts = this.options({
 			precision: 10,
-			sourceMap: true,
+			sourceMap: false,
 			outputStyle: 'nested', //nested, expanded, compact, compressed,
 			omitSourceMapUrl: false
 		});
 
 		var cmd = "sassc ";
 
-		if (opts.outputStyle !== '') {
+		if(opts.style != ''){
+			opts.outputStyle = opts.style;
+		}
+
+		if (opts.outputStyle != '') {
 			cmd += '--style ' + opts.outputStyle + ' ';
 		}
 
