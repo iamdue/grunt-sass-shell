@@ -33,7 +33,7 @@ grunt.initConfig({
       precision: 3,
       loadPath: 'test/fixtures/partials'
     },
-    your_target: {
+    files: {
       // Target-specific file lists and/or options go here.
       'test/tmp/include-paths.css' : 'test/fixtures/include-paths.scss'
     },
