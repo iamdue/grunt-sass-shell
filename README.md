@@ -1,6 +1,6 @@
 # grunt-sass-shell
 
-> Compile SASS to CSS faster then ever before with using libsass from commandline directly.
+> If your SASS compiles slow, then try this plugin, compile SASS to CSS faster then ever before with using libsass from commandline directly.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
