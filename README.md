@@ -87,7 +87,7 @@ grunt.initConfig({
 ```
 
 #### Custom Options
-In this example, custom options are used to do something else with whatever else. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result in this case would be `Testing: 1 2 3 !!!`
+Following examples describes nearly all the combinations of custom options available in this plugin.
 
 ```js
 grunt.initConfig({
@@ -138,6 +138,7 @@ grunt.initConfig({
 ```
 
 ## Contributing
+Feedbacks are welcome.
 If you want to contribute, send a mail to me: gyorgy.sagi@w5.hu .
 
 ## Release History
