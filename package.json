@@ -1,7 +1,7 @@
 {
   "name": "grunt-sass-shell",
   "description": "Compile SASS to CSS faster then ever before with using libsass directly.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "homepage": "https://github.com/iamdue/grunt-sass-shell",
   "author": {
     "name": "Gyorgy Sagi",
